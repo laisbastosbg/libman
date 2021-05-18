@@ -24,6 +24,12 @@ npm i
 docker-compose up
 ```
 
+3. Rodar migrations
+
+```bash
+npm run sequelize db:migrate
+```
+
 # Executando a aplicação
 
 1. No dbeaver, uma conexão postgres com as seguintes configurações:
